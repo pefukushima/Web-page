@@ -1,0 +1,180 @@
+body {
+    background: linear-gradient(white,gainsboro, gray);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(black, gray, gainsboro)
+}
+
+h1 > img {
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.caixa {
+    width: 97%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav { 
+    position: absolute;
+    top: 105px;
+    right: 0;
+    margin: 0 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.loja {
+    width: 940px;
+    margin: 30px auto;
+}
+
+.loja li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: rgb(114, 111, 111) 1px solid;
+    border-radius: 10%;
+}
+
+.imagem-produto {
+    width: 70%;
+}
+
+.loja li:hover {
+    border-color: lightseagreen;
+}
+
+.loja li:hover h2{
+    font-size: 18px;
+}
+
+.loja li:hover p{
+    font-size: 18px;
+}
+
+.loja li:active {
+    border-color: darkred;
+}
+
+.loja h2 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.descricao-produto {
+    margin: 5px 0;
+}
+
+.precos {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.disponivel {
+    padding: 5px 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.indisponivel {
+    padding: 5px 5px;
+    color: rgb(107, 20, 107);
+    font-weight: bold;
+}
+
+.botao-comprar {
+    width: 80%;
+    background: rgba(221, 97, 122, 0.808);
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-comprar:active {
+    background: rgb(56, 54, 54);
+    color: rgba(248, 39, 81, 0.945);
+}
+
+.add-cart {
+    width: 80%;
+    color: rgb(109, 5, 5);
+    background: rgb(177, 222, 240);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-cart:active {
+    background: rgb(109, 5, 5);
+    color: rgb(177, 222, 240);
+}
+
+.darkmode {
+    width: 10%;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #fff;
+    font-weight: 600;
+    background: #181c1f;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 1.5%;
+    border-radius: 5%;
+    border: lightseagreen 1px solid;
+    cursor: pointer;
+}
+
+.darkmode:hover {
+    background: #fff;
+    font-weight: bold;
+    color: #181c1f;
+    border: rgb(37, 253, 109) 1px solid;
+    transition: 1.3s;
+}
+
+.darkmode:active {
+    background: #181c1f;
+    color: #fff;
+    transition: 0.5ms
+}
+
+footer {
+    text-align: center;
+    background: url(every.JPG)
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 13px;
+    margin: 15px 0 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylecontato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="drew.JPG" alt="cabeçalho - foto dos djs"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Lojinha.html">Lojinha</a></li>
+                    <li><a href="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="Nome">Nome</label>
+            <input type="text" id="nome" class="input-standart" required>
+
+            <label for="Email">E-mail</label>
+            <input type="email" id="email" class="input-standart" required>
+
+            <label for="Telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-standart" placeholder="(XX)12345-6789" required>
+
+            <label for="comentario">Comentário</label>
+            <textarea cols="70" rows="14" id="comments" class="input-standart" required></textarea>
+            
+            <fieldset>
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email" class="radioelements" required>Email</label>
+               
+                <label for="radio-tel"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="radioelements" required>Telefone</label>
+                
+                <label for="radio-tel"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="radioelements" required>Whatsapp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Como conheceu nossa loja?</legend>
+                <select>
+                    <option> </option>
+                    <option>Instagram</option>
+                    <option>Facebook</option>
+                    <option>Google</option>
+                    <option>Outros</option>
+                </select>
+            </fieldset>
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+            
+            <input type="submit" value="Enviar Formulário" class="botao">
+        </form>
+    </main>
+    <footer>
+        <img src="foot.JPG" alt="logo Chainsmokers">
+        <p> &copy; Copyright Chainsmokers 2022</p>
+    </footer>    
+</body>
+</html>
